@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "t4YhkAXJiYP4PoNKRgdeG7OrdCOv4TkDHmNV2g7fRZE=",
+  "Source": "buildAssembly",
+  "BasePath": "_content/buildAssembly",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

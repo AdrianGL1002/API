@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  db:
+    hostname: dbpostgres
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root
+    ports:
+      - '5432:5432'
+      
+  api:
+    hostname: NetCoreApinew
+    image: buildassembly:latest
+    ports:
+    - "8080:80"
